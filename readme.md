@@ -1,10 +1,8 @@
-grocerylist
+<h1> My Grocery List program </h1>
 
-<h1> My grocery list program </h1>
+This is my first little program in Ruby so it's pretty basic - it just tracks a grocery list. 
 
-This is my first little program in Ruby so it's pretty basic just tracks a grocery list. 
-
-Main features
+<h2> Main features </h2>
 
 <h4> Add and Remove items from list </h4> 
 
