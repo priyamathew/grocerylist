@@ -44,12 +44,19 @@ class Grocery_list
     end
     puts "Your list has been saved as #{filename}"
   end
+
+  def open_list
+    puts "What's the name of the .txt file you want to open?"
+    file_to_open = gets.chomp + ".txt"
+    read_string = File.read file_to_open
+  end
+
 end
 
 list = Grocery_list.new
 
 while true
-  puts "What do you want to do? Add item, Remove item, Check list, Save list, Exit"
+  puts "What do you want to do? Add item, Remove item, Check list, Save list, Open list, Exit"
   option = gets.chomp
   if option == "Add item"
     puts "What do you want to buy? Please enter an item."
@@ -63,6 +70,8 @@ while true
     list.check_list
   elsif option == "Save list"
     list.save_list
+  elsif option == "Open list"
+    list.open_list
   elsif option == "exit"
     break
   else

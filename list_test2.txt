@@ -1,0 +1,2 @@
+Here's your grocery list: {"oranges"=>1, "Oranges"=>1, "Grapes"=>1}. 
+Here's what you've bought: {"Mangoes"=>1}.

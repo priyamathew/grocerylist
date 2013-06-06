@@ -1,0 +1,2 @@
+Here's your grocery list: {}. 
+Here's what you've bought: {}.
